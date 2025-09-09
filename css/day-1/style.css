@@ -1,0 +1,18 @@
+h1{
+    background-color: darkblue
+}
+
+#first{
+    background-color: beige;
+}
+
+h2{
+    /* em means parent ke multiple me suppose parent ka font size 10px hai end h2 child ka 2em hai toh uska matlab 10X2=20 */
+    font-size: 2em; 
+
+
+        /* rem means root ke multiple me suppose root ka font size 10px hai end h2 child ka 2rem hai toh uska matlab 10X2=20 */
+    font-size: 2rem;
+
+}
+
