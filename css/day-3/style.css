@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+h1 {
+    background-color: pink;
+}
+
+
+    /* position: relative;
+    left: 20px;
+    top: 100px;
+    bottom: 30px;
+    right: 10px; */
+
+
+
+/* Rule of priority */
+/* 
+!important
+inline css
+id
+class
+tags */
+
+.container{
+    position: relative;
+    top: 250px;  
+    background-color: aliceblue;
+    height: 200px;
+    width: 300px;
+    left: 40%;
+    border-radius: 3px;
+}
+
+.circle{
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    left: 100px;
+    top: 50px;
+}
