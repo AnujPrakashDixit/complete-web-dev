@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: antiquewhite;
+    display: flex;
+    height: 600px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+/* justify-content - main axis pe kaam karti hai 
+align-items - cross axis pe kaam karti hai */
+
+.box{
+    height: 100px;
+    width: 100px;
+}
+
+.first{
+    background-color: orange;
+}
+
+.second{
+    background-color: green;
+    align-self: start;
+}
+
+.third{
+    background-color: red;
+    justify-self: start;
+}
+
+.fourth{
+    background-color: aqua;
+}
