@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.sun {
+    height: 80px;
+    width: 80px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.orbit {
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    animation: moving linear infinite;
+}
+
+@keyframes moving {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.first {
+    height: 20px;
+    width: 20px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+.second {
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.third {
+    height: 20px;
+    width: 20px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.fourth {
+    height: 20px;
+    width: 20px;
+    background-color: brown;
+    border-radius: 50%;
+}
+
+.orbit1 {
+    height: 200px;
+    width: 200px;
+    animation-duration: 2s;
+}
+.orbit2 {
+    height: 300px;
+    width: 300px;
+    animation-duration: 4s;
+}
+.orbit3 {
+    height: 400px;
+    width: 400px;
+    animation-duration: 8s;
+}
+.orbit4 {
+    height: 500px;
+    width: 500px;
+    animation-duration: 12s;
+}
